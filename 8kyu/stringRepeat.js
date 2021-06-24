@@ -10,11 +10,9 @@ function repeatStr(n, s) {
   return s.repeat(n);
 }
 
-//one liner
-const repeatStr = (n, s) => s.repeat(n);
 
-//repeat():
-//The repeat() method returns a string that has been repeated a desired number of times. If the count parameter is not provided or is a value of 0, the repeat() method will return an empty string. If the count parameter is a negative value, the repeat() method will return RangeError.
+//const repeatStr = (n, s) => s.repeat(n);
+
 
 // Solution 2
 function repeatStr(n, s) {
